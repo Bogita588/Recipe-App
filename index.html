@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Recipe app</title>
+    <title>Find how to make your favorite meal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
 </head>
 <body>
+    <div class="container">
+        <div class="meal-wrapper">
+            <div class="meal-search">
+                <h2 class="title">Get Food for your ingredients</h2>
+            
+                    <blockquote>
+                        Sweet food does not contain ingredients, sweet food is ingredients themselves!<br>
+                        <cite>Bogita Brian</cite>
+                    </blockquote>
+                    <div class="meal-search-box">
+                        <input type="text" class="search-content"
+                        placeholder="Enter an ingredient" id="search-input">
+                        <button type="submit" class="search-btn btn" id="search-btn">
+                            <i class="fas fa-search"></i>
+
+                        </button>
+
+                    </div>
+                
+            </div>
+            <div class="meal-result">
+                <h2  class="title">Search results:</h2>
+                    <div id="meal">
+                        <div class="meal-item">
+                            <div class="meal-img">
+                                <img src="images\amanda-lim-eqjEyb4IP4s-unsplash.jpg" width="300px" height="200px">
+                            </div>
+                            <div class="meal-name">
+                                <h3>Roasted beef</h3>
+                                <a href = "#" class="recipe-btn">Choose Recipe</a>
+                            </div>
+                        </div>
+
+                    </div>
+                
+            </div>
+        </div>
+
+    </div>
     
 </body>
 </html>
