@@ -125,7 +125,13 @@ display:block ;
 .recipe-btn:hover{
     background: orangered;
 }
-
+.notFound{
+    grid-template-columns: 1fr!important;
+    color: rgb(16, 194, 185);
+    font-size: 1.8rem;
+    font-weight: 600;
+    width: 100%;
+}
 .meal-details-content{
     position: fixed;
     top: 50%;
